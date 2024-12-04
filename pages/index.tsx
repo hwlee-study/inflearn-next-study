@@ -14,7 +14,7 @@ export default function Home({
   }[]
 }) {
   return (
-    <>
+    <div className={homeStyles.container}>
       <Head>
         <title>Your Name</title>
       </Head>
@@ -34,7 +34,7 @@ export default function Home({
           ))}
         </ul>
       </section>
-    </>
+    </div>
   )
 }
 

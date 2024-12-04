@@ -15,7 +15,7 @@ export default function Posts({
   }
 }) {
   return (
-    <div>
+    <div className={homeStyles.container}>
       <Head>
         <title>{postData.title}</title>
       </Head>
