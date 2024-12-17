@@ -1,4 +1,4 @@
-import type {Metadata} from 'next'
+import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
 import Link from 'next/link'
@@ -30,9 +30,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable}`}
         suppressHydrationWarning={true}
       >
-        <nav style={{fontSize: '1.5rem'}}>
-          <Link href={'/'}>Home</Link>
-          <Link style={{marginLeft: '10px'}} href={'/posts'}>
+        <nav className="text-2xl">
+          <Link href={'/'}>Todo</Link>
+          <Link style={{ marginLeft: '10px' }} href={'/posts'}>
             Post
           </Link>
         </nav>
