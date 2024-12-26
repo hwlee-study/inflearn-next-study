@@ -35,6 +35,9 @@ export default function RootLayout({
           <Link style={{ marginLeft: '10px' }} href={'/posts'}>
             Post
           </Link>
+          <Link className="ml-[10px]" href={'/board'}>
+            Board
+          </Link>
         </nav>
         <main>{children}</main>
       </body>
