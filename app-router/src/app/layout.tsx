@@ -38,6 +38,12 @@ export default function RootLayout({
           <Link className="ml-[10px]" href={'/board'}>
             Board
           </Link>
+          <Link className="ml-[10px]" href={'/parallelBoard'}>
+            Parallel_Board
+          </Link>
+          <Link className="ml-[10px]" href={'/parallelBoard/settings'}>
+            Parallel_Board_Settings
+          </Link>
         </nav>
         <main>{children}</main>
       </body>
